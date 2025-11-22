@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Growth Component</title>
+    
+    <!-- Import Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="cg-container">
+        <!-- Header -->
+        <header class="cg-header">
+            <h1 class="cg-title-wrapper">
+                <span class="cg-title-line">How We Helped Clients</span>
+                <span class="cg-title-line">Grow <span class="cg-title-serif">Smarter</span></span>
+            </h1>
+
+            <div class="cg-nav-controls">
+                <button class="cg-nav-btn" id="cg-btn-left" aria-label="Scroll Left">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="19" y1="12" x2="5" y2="12"></line>
+                        <polyline points="12 19 5 12 12 5"></polyline>
+                    </svg>
+                </button>
+                <button class="cg-nav-btn" id="cg-btn-right" aria-label="Scroll Right">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+        <!-- Cards Slider -->
+        <div class="cg-slider" id="cg-slider">
+            
+            <!-- Card 1 -->
+            <article class="cg-card">
+                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1000&auto=format&fit=crop" alt="Skyscrapers" class="cg-card-bg">
+                <div class="cg-content-box">
+                    <h3 class="cg-card-title">Revive & Rise</h3>
+                    <div class="cg-details">
+                        <p class="cg-card-desc">We step in to assess what's holding you back, reshape your strategy, and breathe.</p>
+                        <a href="#" class="cg-btn">
+                            Read More
+                            <span class="cg-btn-icon">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="cg-card">
+                <img src="https://images.pexels.com/photos/1181292/pexels-photo-1181292.jpeg" alt="Team meeting" class="cg-card-bg">
+                <div class="cg-content-box">
+                    <h3 class="cg-card-title">Scaling Made Simple</h3>
+                    <div class="cg-details">
+                        <p class="cg-card-desc">Streamlining operations to help you grow your user base without the growing pains.</p>
+                        <a href="#" class="cg-btn">
+                            Read More
+                            <span class="cg-btn-icon">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="cg-card">
+                <img src="https://images.pexels.com/photos/30675877/pexels-photo-30675877.jpeg" alt="Modern office" class="cg-card-bg">
+                <div class="cg-content-box">
+                    <h3 class="cg-card-title">Fast-Track Growth</h3>
+                    <div class="cg-details">
+                        <p class="cg-card-desc">Accelerated marketing strategies designed to put your brand on the map instantly.</p>
+                        <a href="#" class="cg-btn">
+                            Read More
+                            <span class="cg-btn-icon">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            
+            <!-- Card 4 (Extra for scrolling demo) -->
+            <article class="cg-card">
+                <img src="https://images.pexels.com/photos/1112598/pexels-photo-1112598.jpeg" alt="Strategy Board" class="cg-card-bg">
+                <div class="cg-content-box">
+                    <h3 class="cg-card-title">Strategic Pivot</h3>
+                    <div class="cg-details">
+                        <p class="cg-card-desc">Expert guidance when you need to change direction and capture new market opportunities.</p>
+                        <a href="#" class="cg-btn">
+                            Read More
+                            <span class="cg-btn-icon">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
