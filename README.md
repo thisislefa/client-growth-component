@@ -4,7 +4,7 @@ A sophisticated, animated client showcase component that brings success stories 
 
 ## Live Demo
 
-https://thisislefa.github.io/client-growth-component
+https://thisislefa.github.io/ClientGrowth
 
 ## Features
 
@@ -29,7 +29,7 @@ https://thisislefa.github.io/client-growth-component
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/thisislefa/client-growth-component.git
+   git clone https://github.com/thisislefa/ClientGrowth.git
    cd client-growth-component
    ```
 
@@ -149,4 +149,5 @@ SOFTWARE.
 - Images from Unsplash and Pexels
 - Fonts from Google Fonts
 - Icons from Feather Icons
+
 
